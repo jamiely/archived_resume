@@ -1,0 +1,16 @@
+%div.company
+  %section.company
+    %h2.name
+      = company
+      %small.location= location
+    .title= title
+    .dates
+      .start-date= dates['start']
+      .end-date= dates['end']
+    - if duties.nil?
+      .problem
+        No duties available.
+    - else
+      %ul
+      - duties.each do | duty |
+        %li.duty= duty

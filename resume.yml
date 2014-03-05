@@ -1,0 +1,250 @@
+computer_skills:
+  languages: 
+    - Java
+    - Ruby
+    - Bash
+    - Objective-C
+    - Javascript
+    - SQL
+    - Regular Expressions
+    - C/C++
+    - PHP
+    - Scala
+    - Python
+    - SASS/LESS/CSS
+    - XML/XPath
+    - HAML/HTML
+    - R
+    - Clojure(script)
+    - Haskell
+  frameworks:
+    - Chef
+    - Backbone.js
+    - JQuery
+    - Rails
+    - Facebook
+    - WordPress
+    - Flex
+    - ASP.Net
+    - JUnit-like testing
+  software:
+    - Vim
+    - Jenkins/Teamcity
+    - Visual Studio
+    - Adobe Creative Suite
+    - IIS/Apache/Nginx
+    - MySQL/SQL Server
+    - Emacs
+    - Selenium
+    - JMeter
+  skills:
+    - Public Speaking
+    - Business Writing
+    - Project Management
+    - Digital media
+
+employment:
+  - company: McKesson Corporation
+    location: King of Prussia, PA
+    dates: 
+      start: August 2013
+      end: Present
+    title: Senior Software Developer
+    duties:
+      - Developed REST APIs using Play Framework and spray-io in Scala
+      - Developed REST APIs using JAX-RS in Java
+      - > 
+        Developed Chef cookbooks for Java application server setup and
+        application deployment. Provisioned nodes using Chef solo and 
+        Chef Server. Tested cookbooks using test-kitchen.
+      - >
+        Configured Jenkins jobs for building and deploying Java and 
+        Scala projects.
+      - >
+        Configured and managed shared logging and monitoring services 
+        logstash, Kibana, and Graphite.
+      - Created build tasks using Maven, rake, and sbt.
+  - company: EPAM Empathy Lab
+    location: Conshohocken, PA
+    title: Mobile Developer 
+    dates: 
+      start: November 2012
+      end: August 2013
+    duties:
+      - Worked on new features for an iOS digital streaming video product
+      - Implemented automated builds using TeamCity
+      - Implemented automated testing using Frank and Kiwi
+      - >
+        Developed build and project tools using Ruby Thor-command 
+        line program framework
+  - company: BrickSimple, LLC
+    location: Doylestown, PA
+    title: Mobile Developer 
+    dates: 
+      start: August 2012
+      end: November 2012
+    duties: 
+      - Developed Universal iOS applications written using native Objective-C
+      - Developed REST web services using Symfony 2
+      - Implemented offline mapping solution for iOS using OpenStreetMap data.
+      - Implemented Portfolio Management solution using VB.NET
+  - company: The Wharton School of the University of Pennsylvania
+    location: Philadelphia, PA
+    title: IT Director 
+    dates:
+      start: April 2011
+      end: August 2012
+    duties: 
+      - Determine strategic direction for software development group
+      - Managed 3 developers directly
+      - >
+        Recruited and hired 2 developers to backfill positions, related
+        performance management
+      - Implement rigorous software development methodologies
+      - Streamline operations and reduce errors
+      - >
+        Increase data collection through operationalization of task
+        tracking, time tracking, and customer surveys
+      - >
+        Work closely with faculty and staff members to spec and design
+        software applications
+      - >
+        Develop Intermap application featuring rich AJAX-based UI for
+        graph creation and visualization using Backbone.js, ColdFusion,
+        R, and GraphViz
+      - >
+        Conducted various training including JavaScript and
+        algorithm-based training using Project Euler
+      - Developed complex JMeter load tests and accessory scripts
+      - Developed JMeter management utilities using Ruby, Thor, and Nokogiri
+      - Developed software prototype using Twitter Bootstrap
+      - >
+        Implemented productivity reports using Rails by merging several
+        data sources and creating several Ruby gems to interact with 3rd
+        party APIs including Parature, Qualtrics, and Unfuddle.
+      - >
+        Many of the same duties as listed below, in the Software
+        Developer position
+  - company: The Wharton School of the University of Pennsylvania
+    location: Philadelphia, PA
+    title: Programmer Analyst, Programmer Analyst Senior
+    dates:
+      start: November 2009
+      end: April 2011
+    duties: 
+      - Supported and developed learning simulations primarily using ColdFusion, Flex, and Javascript.
+      - Addressed bugs and supported requests for a stock simulation program used by hundreds of students.
+      - Reviewed code as part of code review team for applications moving to production environment.
+      - Developed native iPhone Application for student use using Objective-C.
+      - Developed an R and Tcl/Tk application based on RCmdr for use in classroom instruction.
+      - Developed iPad web application using Rails hosted on Heroku.
+  - company: AmerisourceBergen Corporation
+    location: Chesterbrook, PA
+    title: Systems Specialist I, Systems Specialist II 
+    dates:
+      start: December 2006
+      end: November 2009
+    duties:
+      - > 
+        Led four-person development team in technical aspects working
+        on over thirty different applications used by over three
+        thousand company associates in various business areas.
+      - >
+        Developed Metastorm BPM application hiring application to
+        directly interface with Monster.com, used by thirty recruiters
+        to perform all external hiring.
+      - >
+        Created auditing application used by over one hundred
+        associates to create check requests for expense payments,
+        interfacing with Lawson G/L system.
+      - >
+        Created standards and methodologies used by team to develop
+        applications.
+      - >
+        Managed at least eight projects ranging from 100 to 1,200
+        budget hours.
+      - >
+        Managed and improved ongoing product support, receiving and
+        addressing at least thirty ad-hoc requests and bugs weekly.
+      - >
+        Managed cross-functional teams to initiate new server builds
+        and broad server updates.
+      - >
+        Developed prototype Drupal-based company intranet including
+        module creation and theme authoring.
+  - company: SMART CONSULTING, LLC.
+    location: Devon, PA
+    title: Business Consultant, Business Consultant Senior 
+    dates:
+      start: June 2005
+      end: December 2006
+    duties:
+      - > 
+        Designed and created relational database structure for three
+        large projects.
+      - >
+        Created DTS Packages using MS SQL Enterprise Manager to
+        synchronize production and development environments for a major
+        distributor.
+      - >
+        Administered SharePoint to coordinate shared documents and
+        applications for a twenty-person team for a major insurance
+        company.
+      - >
+        Created scripts to upload documents to SharePoint portal via its
+        exposed Web Services.
+      - >
+        Developed tool for use in cross ledger reconciliation using
+        Excel VBA for a major insurance company. The tool provided
+        functions to assist in reconciling schedules consisting of up to
+        two thousand lines. These functions included the ability to
+        automatically capture matching amounts across ledgers, data
+        integrity validation, hiding of reconciled sums, smart
+        subtotals, and system generated hyperlinks for matching amounts.
+      - >
+        Developed Access tool to generate schedules via exported Cognos
+        data and previous period data for a major insurance company.
+      - >
+        Wrote and designed training, requirements, and design documents
+        for many applications.
+      - >
+        Developed Metastorm BPM workflow application for major food
+        processor.
+
+education:
+  - institution: University of Pennsylvania
+    location: Philadelphia, PA
+    dates:
+      start: September 2010
+      end: December 2013
+    degree: MSE in Computer & Information Science
+    gpa: 3.74
+  - institution: Temple University
+    location: Philadelphia, PA
+    dates:
+      start: September 2007
+      end: May 2009
+    degree: MBA with concentration in Finance
+    gpa: 3.70
+  - institution: Drexel University
+    location: Philadelphia, PA
+    dates: 
+      start: September 2000
+      end: June 2005
+    degree: BS in Computer Science, Minor in Mathematics
+    gpa: 3.61
+
+interests:
+  - Creative writing both prose and poetry (jamiely.com/wordpress/writings)
+  - Sculpture and other arts and crafts (jamiely.com/wordpress/artscrafts)
+  - Game programming
+  - Open source software
+  - Juggling
+
+activities:
+  - Wharton Innovation Tournament 2010
+  - Higher-Ed Web Symposium 2010/Higher-Ed Camp 2010
+  - Philly Give Camp 2010
+  - Code for America Philadelphia 2012
+  - Various independent consulting work
+  - Six Sigma Green Belt, PMP Training

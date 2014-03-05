@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+  %body
+    %h1 Jamie Ly
+    - employment.each do | company |
+      = yield :company, company
+    - education.each do |school|
+      = yield :school, school
+
