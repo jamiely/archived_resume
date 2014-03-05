@@ -20,6 +20,7 @@ def resume_data
   YAML.load_file 'resume.yml'
 end
 
+desc "Builds an html file from the resume haml template"
 task :build do 
   locals = hash_symbolize resume_data
 
@@ -41,6 +42,7 @@ task :build do
   end
 end
 
+desc "Validates the resume YAML file"
 task :validate do
   require 'yaml'
   begin
