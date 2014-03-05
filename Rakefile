@@ -33,7 +33,7 @@ task :build do
     end
 
     html = main_engine.render Object.new, locals, &blk
-    File.open('resume.html', 'w') do |f|
+    File.open('index.html', 'w') do |f|
       f.write html
     end
   rescue StandardError => e 

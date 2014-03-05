@@ -3,6 +3,7 @@
   %head
   %body
     %h1 Jamie Ly
+    = yield :computer_skills, computer_skills
     - employment.each do | company |
       = yield :company, company
     - education.each do |school|
