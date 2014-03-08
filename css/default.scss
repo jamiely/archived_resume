@@ -13,6 +13,14 @@ body {
 }
 
 .resume-container {
+  a {
+    text-decoration: none;
+    border-bottom: 2px $colLessDark dotted;
+    color: $colDark;
+  }
+  a:hover {
+    color: $colLessDark;
+  }
   .print-only {
     display: none;
   }
@@ -27,10 +35,6 @@ body {
   h1,h2,h3,h4,h5 {
     font-family: sans-serif;
     color: $colLessDark;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .contact-container a {
@@ -59,10 +63,6 @@ body {
     }
 
     .skills {
-      a { 
-        text-decoration: none;
-        color: $colDark;
-      }
       > .skill {
         display: inline-block;
         &:after {
@@ -191,13 +191,11 @@ body {
     .project-name, .project-source {
       display: inline-block;
     }
-    a {
-      color: $colDark;
-    }
     .project-source {
       font-size: 70%;
       float: right;
       color: $colLessDark;
+      display: none;
     }
   }
 }
@@ -223,6 +221,17 @@ body {
 @media print {
   .resume-container {
     font-size: small;
+
+    a {
+      text-decoration: none;
+      border-bottom: 0px;
+    }
+
+    .project {
+      .project-source {
+        display: inline-block;
+      }
+    }
     .computer-skills h3, .computer-skills ul {
       margin-top: 0in;
       margin-bottom: 0in;

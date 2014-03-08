@@ -11,13 +11,17 @@ body {
   max-width: 9in;
   padding: .5in;
   background-color: #f2f4f2; }
+  .resume-container a {
+    text-decoration: none;
+    border-bottom: 2px #716a5b dotted;
+    color: #262724; }
+  .resume-container a:hover {
+    color: #716a5b; }
   .resume-container .print-only {
     display: none; }
   .resume-container h1, .resume-container h2, .resume-container h3, .resume-container h4, .resume-container h5 {
     font-family: sans-serif;
     color: #716a5b; }
-  .resume-container a {
-    text-decoration: none; }
   .resume-container .contact-container a {
     color: #262724; }
   .resume-container .location {
@@ -31,9 +35,6 @@ body {
       padding-left: .5em; }
     .resume-container .computer-skills .skills-header {
       margin-bottom: .5em; }
-    .resume-container .computer-skills .skills a {
-      text-decoration: none;
-      color: #262724; }
     .resume-container .computer-skills .skills > .skill {
       display: inline-block; }
       .resume-container .computer-skills .skills > .skill:after {
@@ -98,12 +99,11 @@ body {
     content: ' Cumulative GPA: '; }
   .resume-container .project .project-name, .resume-container .project .project-source {
     display: inline-block; }
-  .resume-container .project a {
-    color: #262724; }
   .resume-container .project .project-source {
     font-size: 70%;
     float: right;
-    color: #716a5b; }
+    color: #716a5b;
+    display: none; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   body {
@@ -120,6 +120,11 @@ body {
   .resume-container {
     font-size: small;
     /** hide these so that the resume prints on two pages. **/ }
+    .resume-container a {
+      text-decoration: none;
+      border-bottom: 0px; }
+    .resume-container .project .project-source {
+      display: inline-block; }
     .resume-container .computer-skills h3, .resume-container .computer-skills ul {
       margin-top: 0in;
       margin-bottom: 0in; }
