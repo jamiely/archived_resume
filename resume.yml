@@ -225,7 +225,7 @@ education:
       start: September 2007
       end: May 2009
     degree: MBA with concentration in Finance
-    gpa: 3.70
+    gpa: '3.70'
   - institution: Drexel University
     location: Philadelphia, PA
     dates: 
@@ -248,3 +248,4 @@ activities:
   - Code for America Philadelphia 2012
   - Various independent consulting work
   - Six Sigma Green Belt, PMP Training
+
