@@ -7,9 +7,34 @@
       = yield :contact, contact
       = yield :computer_skills, computer_skills
       .companies
+        %h2 Employment
         - employment.each do | company |
           = yield :company, company
       .education
+        %h2 Education
         - education.each do |school|
           = yield :school, school
+      .projects-container
+        %h2 Selected Personal Projects
+        %ul.projects
+          - projects.each do |project|
+            %li.project
+              - source = project['links'].find{|l|l['type'] == 'article'}
+              - if source.nil?
+                = project['name']
+              - else
+                %a{href: source['url']}
+                  .project-name= project['name']
+                  .project-source= source['url'].gsub(/https?:\/\//, '')
+              .project-description= project['description']
+      .interests-container
+        %h2 Interests
+        %ul.interests
+          - interests.each do |interest|
+            %li.interest= interest
+      .activities-container
+        %h2 Activities
+        %ul.activities
+          - activities.each do |activity|
+            %li.activity= activity
 

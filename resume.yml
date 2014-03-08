@@ -36,6 +36,7 @@ computer_skills:
       link: http://jamie.ly/wordpress/tags/haskell/
   frameworks:
     - name: Chef
+      link: http://blog.jamie.ly/programming/2014/03/06/deploying-a-java-tomcat-application-via-chef.html
     - name: Backbone.js
     - name: JQuery
     - name: Rails
@@ -276,4 +277,64 @@ activities:
   - Code for America Philadelphia 2012
   - Various independent consulting work
   - Six Sigma Green Belt, PMP Training
+
+projects:
+  - name: Tetris Attack in Cljs
+    description: >
+      An implementation of the beloved puzzle game in Clojurescript.
+    links:
+      - type: demo
+        url: http://jamie.ly/labs/tetris-attack-clojurescript/index.html
+      - type: source
+        url: https://github.com/jamiely/simple-clojure-game
+      - type: article
+        url: http://jamie.ly/wordpress/programming/software/clojurescript-tetris-attack
+  - name: Simulator
+    description: >
+      Use to simulate discrete time models/simulations. Written in Ruby and 
+      packaged as a gem.
+    links:
+      - type: article
+        url: http://blog.jamie.ly/libraries/2013/01/28/simulator-ruby-gem.html
+      - type: rubygems
+        url: https://rubygems.org/gems/simulator
+      - type: source
+        url: https://github.com/jamiely/simulator
+  - name: Bunny Matcher
+    description: >
+      A Super Munchers clone for iOS. Written in Objective-C.
+    links:
+      - type: article
+        url: http://blog.jamie.ly/software/2013/01/09/ios-app-bunny-matcher.html
+      - type: iTunes
+        url: https://itunes.apple.com/us/app/bunny-matcher/id590498392?ls=1&mt=8
+      - type: source
+        url: https://github.com/jamiely/bunny-matcher
+  - name: Font Awesome Browser
+    description: >
+      A gallery and exporter for Font Awesome glyphs. Written in Java for Android.
+    links:
+      - type: article
+        url: http://jamie.ly/wordpress/programming/software/font-awesome-browser
+      - type: play store
+        url: https://play.google.com/store/apps/details?id=ly.jamie.fontawesomebrowser
+      - type: source
+        url: https://github.com/jamiely/Font-Awesome-Browser-Android
+  - name: Jumbly
+    description: >
+      A scramble word game for iOS written in Objective-C.
+    links:
+      - type: article
+        url: http://jamie.ly/wordpress/programming/software/jumbly-a-jumble-game-for-ios
+      - type: iTunes
+        url: https://itunes.apple.com/us/app/jumbly/id575537890
+      - type: source
+        url: https://github.com/jamiely/jumbly
+  - name: The Other Philadelphia
+    description: > 
+      A Rails app with FB auth bringing the faceless statistics of Philadelphia
+      close to home by applying them to your Facebook friends.
+    links:
+      - type: article
+        url: http://jamie.ly/wordpress/programming/code-for-america-philly-2012
 

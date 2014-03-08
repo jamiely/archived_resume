@@ -59,8 +59,10 @@ body {
     display: inline-block; }
   .resume-container .dates > .end-date:before {
     content: " - "; }
-  .resume-container .companies, .resume-container .education {
+  .resume-container .companies, .resume-container .education, .resume-container .projects-container {
     border-top: 1px #c9d5db solid; }
+  .resume-container .projects-container {
+    margin-top: 1em; }
   .resume-container .company-container .company .name {
     margin-bottom: 0.3em; }
     .resume-container .company-container .company .name .long-name {
@@ -94,6 +96,14 @@ body {
     content: '. '; }
   .resume-container .school .gpa:before {
     content: ' Cumulative GPA: '; }
+  .resume-container .project .project-name, .resume-container .project .project-source {
+    display: inline-block; }
+  .resume-container .project a {
+    color: #262724; }
+  .resume-container .project .project-source {
+    font-size: 70%;
+    float: right;
+    color: #716a5b; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   body {

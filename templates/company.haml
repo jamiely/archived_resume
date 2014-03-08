@@ -1,8 +1,7 @@
 %div.company-container{class: 'company-' + company.gsub(/\W/, '-').downcase}
   %section.company
-    %h2.name
-      .short-name= company_short ||= company
-      .long-name= company
+    %h3.name
+      = company
       %small.location= location
     .title= title
     .dates

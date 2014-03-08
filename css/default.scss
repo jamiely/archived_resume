@@ -113,8 +113,11 @@ body {
     }
   }
 
-  .companies, .education {
+  .companies, .education, .projects-container {
     border-top: 1px $colNeutral solid;
+  }
+  .projects-container {
+    margin-top: 1em;
   }
 
   .company-container {
@@ -181,6 +184,20 @@ body {
 
     .gpa:before {
       content: ' Cumulative GPA: ';
+    }
+  }
+
+  .project {
+    .project-name, .project-source {
+      display: inline-block;
+    }
+    a {
+      color: $colDark;
+    }
+    .project-source {
+      font-size: 70%;
+      float: right;
+      color: $colLessDark;
     }
   }
 }
