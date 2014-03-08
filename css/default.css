@@ -1,0 +1,103 @@
+body {
+  margin: 0 auto;
+  max-width: 9in;
+  background-color: #262724;
+  color: #262724
+}
+
+.resume-container {
+  font-family: serif;
+  font-size: 150%;
+  line-height: 1.3em;
+  max-width: 9in;
+  padding: .5in;
+  background-color: #F2F4F2;
+}
+
+h1,h2,h3,h4,h5 {
+  font-family: sans-serif;
+  color: #716A5B
+}
+
+.computer-skills {
+  padding-left: .5em;
+}
+
+ul.skills {
+  margin-top: .1em;
+  padding-left: .5em;
+}
+
+.skills-header {
+  margin-bottom: .5em;
+}
+
+.contact-container > * > * {
+  display: inline-block;
+}
+
+.contact-container h1 {
+  color: #262724;
+}
+
+.skills > .skill:after {
+  content: ', ';
+}
+.skills > .skill:last-child:after {
+  content: '';
+}
+.skills > .skill {
+  display: inline-block;
+}
+
+.dates > * {
+  display: inline-block;
+}
+
+.company .title {
+  display: inline-block;
+}
+
+.company .dates {
+  display: inline-block;
+}
+
+.company .title:after {
+  content: '.';
+}
+
+.company .location {
+  font-style: italic;
+  font-weight: normal;
+}
+
+.company-container .name {
+  margin-bottom: 0.3em;
+}
+
+.dates > .end-date:before {
+  content: ' - '
+}
+
+.school .degree, .school .gpa {
+  display: inline-block;
+}
+
+.school .location {
+  font-weight: normal;
+  font-size: 70%;
+  font-style: italic;
+}
+
+.location {
+  color: #D8D2B9;
+}
+
+.school .degree:after {
+  content: '. ';
+} 
+
+.school .gpa:before {
+  content: ' Cumulative GPA: ';
+}
+
