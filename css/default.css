@@ -5,6 +5,14 @@ body {
   color: #262724
 }
 
+a {
+    text-decoration: none;
+}
+
+.contact-container a {
+  color: #262724
+}
+
 .resume-container {
   font-family: serif;
   font-size: 150%;
@@ -116,6 +124,23 @@ ul.skills {
     padding: .25in;
     background-color: transparent;
     font-size: 300%;
+  }
+}
+
+@media print {
+  body, .resume-container {
+    font-size: small;
+  }
+  .computer-skills h3, .computer-skills ul {
+    margin-top: 0in;
+    margin-bottom: 0in;
+  }
+  .school .dates {
+    display: inline-block;
+  }
+
+  .company-smart-consulting--llc- {
+    display: none;
   }
 }
 

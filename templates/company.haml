@@ -1,4 +1,4 @@
-%div.company-container
+%div.company-container{class: 'company-' + company.gsub(/\W/, '-').downcase}
   %section.company
     %h2.name
       = company
