@@ -48,6 +48,26 @@ ul.skills {
   color: #262724;
 }
 
+.contact .email {
+  margin-left: 3em;
+}
+
+.contact .website:before, .contact .website:after {
+  content: ' | ';
+}
+
+.contact .github {
+  background-image: url(../img/github_mark.png);
+  background-repeat: no-repeat;
+  text-indent: 36px;
+  background-position: 0px 0px;
+}
+
+.contact .github img {
+  display: inline-block;
+  margin-bottom:-8px;
+}
+
 .skills > .skill:after {
   content: ', ';
 }
@@ -85,6 +105,18 @@ ul.skills {
 
 .dates > .end-date:before {
   content: ' - '
+}
+
+li.duty {
+  line-height: 1.5em;
+}
+
+ul.duties {
+  margin-top: .3em;
+}
+
+.school > h2 {
+  margin-bottom: .3em;
 }
 
 .school .degree, .school .gpa {

@@ -3,6 +3,7 @@ contact:
   website: http://jamie.ly
   twitter: jamiely
   email: me@jamie.ly
+  github: jamiely
 computer_skills:
   languages: 
     - Java
@@ -177,7 +178,7 @@ employment:
       - >
         Developed prototype Drupal-based company intranet including
         module creation and theme authoring.
-  - company: SMART CONSULTING, LLC.
+  - company: Smart Consulting, LLC.
     location: Devon, PA
     title: Business Consultant, Business Consultant Senior 
     dates:
