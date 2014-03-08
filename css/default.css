@@ -95,11 +95,12 @@ body {
     font-size: 300%; } }
 @media print {
   .resume-container {
-    font-size: small; }
+    font-size: small;
+    /** hide these so that the resume prints on two pages. **/ }
     .resume-container .computer-skills h3, .resume-container .computer-skills ul {
       margin-top: 0in;
       margin-bottom: 0in; }
     .resume-container .school .dates {
       display: inline-block; }
-    .resume-container .company-smart-consulting--llc- {
+    .resume-container .company-smart-consulting--llc-, .resume-container .company-amerisourcebergen-corporation {
       display: none; } }

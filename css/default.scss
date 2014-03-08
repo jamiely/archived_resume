@@ -191,7 +191,8 @@ body {
       display: inline-block;
     }
 
-    .company-smart-consulting--llc- {
+    /** hide these so that the resume prints on two pages. **/
+    .company-smart-consulting--llc-, .company-amerisourcebergen-corporation {
       display: none;
     }
   }
