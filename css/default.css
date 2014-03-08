@@ -11,6 +11,8 @@ body {
   max-width: 9in;
   padding: .5in;
   background-color: #f2f4f2; }
+  .resume-container .print-only {
+    display: none; }
   .resume-container h1, .resume-container h2, .resume-container h3, .resume-container h4, .resume-container h5 {
     font-family: sans-serif;
     color: #716a5b; }
@@ -29,12 +31,17 @@ body {
       padding-left: .5em; }
     .resume-container .computer-skills .skills-header {
       margin-bottom: .5em; }
+    .resume-container .computer-skills .skills a {
+      text-decoration: none;
+      color: #262724; }
     .resume-container .computer-skills .skills > .skill {
       display: inline-block; }
       .resume-container .computer-skills .skills > .skill:after {
         content: ', '; }
       .resume-container .computer-skills .skills > .skill:last-child:after {
         content: ''; }
+      .resume-container .computer-skills .skills > .skill .name {
+        display: inline-block; }
   .resume-container .contact-container > * > * {
     display: inline-block; }
   .resume-container .contact-container h1 {
@@ -56,6 +63,12 @@ body {
     border-top: 1px #c9d5db solid; }
   .resume-container .company-container .company .name {
     margin-bottom: 0.3em; }
+    .resume-container .company-container .company .name .long-name {
+      display: none; }
+    .resume-container .company-container .company .name:hover .short-name {
+      display: none; }
+    .resume-container .company-container .company .name:hover .long-name {
+      display: block; }
   .resume-container .company-container .company .title {
     display: inline-block; }
   .resume-container .company-container .company .dates {

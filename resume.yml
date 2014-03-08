@@ -6,51 +6,70 @@ contact:
   github: jamiely
 computer_skills:
   languages: 
-    - Java
-    - Ruby
-    - Bash
-    - Objective-C
-    - Javascript
-    - SQL
-    - Regular Expressions
-    - C/C++
-    - PHP
-    - Scala
-    - Python
-    - SASS/LESS/CSS
-    - XML/XPath
-    - HAML/HTML
-    - R
-    - Clojure(script)
-    - Haskell
+    - name: Java
+      link: http://jamie.ly/wordpress/tags/java
+    - name: Ruby
+      link: http://jamie.ly/wordpress/tags/ruby
+    - name: Bash
+    - name: Objective-C
+      link: http://jamie.ly/wordpress/tags/objective-c/
+    - name: Javascript
+      link: http://jamie.ly/wordpress/tags/javascript/
+    - name: SQL
+      link: http://jamie.ly/wordpress/?s=sql
+    - name: Regular Expressions
+    - name: C/C++
+      link: http://jamie.ly/wordpress/tags/C-lang
+    - name: PHP
+      link: http://jamie.ly/wordpress/tags/php
+    - name: Scala
+    - name: Python
+      link: http://jamie.ly/wordpress/tags/python
+    - name: SASS/LESS/CSS
+      link: http://jamie.ly/wordpress/tags/css
+    - name: XML/XPath
+    - name: HAML/HTML
+    - name: R
+    - name: Clojure(script)
+      link: http://jamie.ly/wordpress/?s=clojure
+    - name: Haskell
+      link: http://jamie.ly/wordpress/tags/haskell/
   frameworks:
-    - Chef
-    - Backbone.js
-    - JQuery
-    - Rails
-    - Facebook
-    - WordPress
-    - Flex
-    - ASP.Net
-    - JUnit-like testing
+    - name: Chef
+    - name: Backbone.js
+    - name: JQuery
+    - name: Rails
+      link: http://jamie.ly/wordpress/tags/rails/
+    - name: Facebook
+      link: http://jamie.ly/wordpress/tags/facebook-api
+    - name: WordPress
+      link: http://jamie.ly/wordpress/tags/wordpress
+    - name: Flex
+    - name: ASP.Net
+    - name: JUnit-like testing
   software:
-    - Vim
-    - Jenkins/Teamcity
-    - Visual Studio
-    - Adobe Creative Suite
-    - IIS/Apache/Nginx
-    - MySQL/SQL Server
-    - Emacs
-    - Selenium
-    - JMeter
+    - name: Vim
+    - name: Jenkins/Teamcity
+    - name: Visual Studio
+    - name: Adobe Creative Suite
+    - name: IIS/Apache/Nginx
+    - name: MySQL/SQL Server
+    - name: Emacs
+    - name: Selenium
+    - name: JMeter
   other:
-    - Public Speaking
-    - Business Writing
-    - Project Management
-    - Digital media
+    - name: Public Speaking
+      link: http://jamie.ly/wordpress/tags/public-speaking
+    - name: Business Writing
+      link: http://jamie.ly/wordpress/tags/business-writing
+    - name: Project Management
+      link: http://jamie.ly/wordpress/tags/project-management
+    - name: Digital media
+      link: http://jamie.ly/wordpress/tags/digital-media/
 
 employment:
   - company: McKesson Corporation
+    company_short: McKesson
     location: King of Prussia, PA
     dates: 
       start: August 2013
@@ -95,6 +114,7 @@ employment:
       - Implemented offline mapping solution for iOS using OpenStreetMap data.
       - Implemented Portfolio Management solution using VB.NET
   - company: The Wharton School of the University of Pennsylvania
+    company_short: The Wharton School
     location: Philadelphia, PA
     title: IT Director 
     dates:
@@ -132,6 +152,7 @@ employment:
         Many of the same duties as listed below, in the Software
         Developer position
   - company: The Wharton School of the University of Pennsylvania
+    company_short: The Wharton School
     location: Philadelphia, PA
     title: Programmer Analyst, Programmer Analyst Senior
     dates:
@@ -145,6 +166,7 @@ employment:
       - Developed an R and Tcl/Tk application based on RCmdr for use in classroom instruction.
       - Developed iPad web application using Rails hosted on Heroku.
   - company: AmerisourceBergen Corporation
+    company_short: AmerisourceBergen
     location: Chesterbrook, PA
     title: Systems Specialist I, Systems Specialist II 
     dates:

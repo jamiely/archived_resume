@@ -13,6 +13,10 @@ body {
 }
 
 .resume-container {
+  .print-only {
+    display: none;
+  }
+
   font-family: serif;
   font-size: 150%;
   line-height: 1.3em;
@@ -55,6 +59,10 @@ body {
     }
 
     .skills {
+      a { 
+        text-decoration: none;
+        color: $colDark;
+      }
       > .skill {
         display: inline-block;
         &:after {
@@ -62,6 +70,9 @@ body {
         }
         &:last-child:after {
           content: '';
+        }
+        .name {
+          display: inline-block;
         }
       }
     }
@@ -111,6 +122,18 @@ body {
     .company {
       .name {
         margin-bottom: $closeBottom;
+
+        .long-name {
+          display: none;
+        }
+        &:hover {
+          .short-name {
+            display: none;
+          }
+          .long-name {
+            display: block;
+          }
+        }
       }
       .title {
         display: inline-block;

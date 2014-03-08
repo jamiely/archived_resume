@@ -9,5 +9,5 @@
       %h3.skills-header{class: title}= title
       %ul.skills{class: title}
         - list.each do |item|
-          %li.skill= item
+          %li.skill= yield :skill, item
 
