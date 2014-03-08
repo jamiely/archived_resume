@@ -1,0 +1,200 @@
+$closeBottom: .3em;
+$colDark: #262724;
+$colLight: #F2F4F2;
+$colLessDark: #716A5B;
+$colLessLight: #D8D2B9;
+$colNeutral: #C9D5DB;
+
+body {
+  margin: 0 auto;
+  max-width: 9in;
+  background-color: $colDark;
+  color: $colDark
+}
+
+.resume-container {
+  font-family: serif;
+  font-size: 150%;
+  line-height: 1.3em;
+  max-width: 9in;
+  padding: .5in;
+  background-color: $colLight;
+
+  h1,h2,h3,h4,h5 {
+    font-family: sans-serif;
+    color: $colLessDark;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .contact-container a {
+    color: $colDark
+  }
+
+  .location {
+    color: $colLessLight;
+  }
+
+
+  .computer-skills-container {
+    border-top: 1px $colNeutral solid;
+  }
+
+  .computer-skills {
+    padding-left: .5em;
+
+    ul.skills {
+      margin-top: .1em;
+      padding-left: .5em;
+    }
+
+    .skills-header {
+      margin-bottom: .5em;
+    }
+
+    .skills {
+      > .skill {
+        display: inline-block;
+        &:after {
+          content: ', ';
+        }
+        &:last-child:after {
+          content: '';
+        }
+      }
+    }
+  }
+
+
+  .contact-container {
+    > * > * {
+      display: inline-block;
+    }
+    h1 {
+      color: $colDark;
+    }
+    .contact {
+      .email {
+        margin-left: 3em;
+      }
+
+      .website:before, .website:after {
+        content: ' | ';
+      }
+
+      .github {
+        background-image: url(../img/github_mark.png);
+        background-repeat: no-repeat;
+        text-indent: 36px;
+        background-position: 0px 0px;
+      }
+    }
+  }
+
+  .dates {
+    > * {
+      display: inline-block;
+    }
+    > .end-date:before {
+      content: ' - '
+    }
+  }
+
+  .companies, .education {
+    border-top: 1px $colNeutral solid;
+  }
+
+  .company-container {
+
+    .company {
+      .name {
+        margin-bottom: $closeBottom;
+      }
+      .title {
+        display: inline-block;
+      }
+
+      .dates {
+        display: inline-block;
+      }
+
+      .title:after {
+        content: '.';
+      }
+
+      .location {
+        font-style: italic;
+        font-weight: normal;
+      }
+    }
+  }
+
+  ul.duties {
+    margin-top: $closeBottom;
+    .duty {
+      line-height: 1.5em;
+    }
+  }
+
+  .school {
+    > h2 {
+      margin-bottom: $closeBottom;
+    }
+
+    .degree,.gpa {
+      display: inline-block;
+    }
+
+    .location {
+      font-weight: normal;
+      font-size: 70%;
+      font-style: italic;
+    }
+    .degree:after {
+      content: '. ';
+    } 
+
+    .gpa:before {
+      content: ' Cumulative GPA: ';
+    }
+  }
+}
+
+@media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 568px) 
+  and (orientation : portrait) {
+  body {
+    max-width: 100%;
+    background-color: $colLight;
+  }
+
+  .resume-container {
+    line-height: 1.3em;
+    width: 100%;
+    padding: .25in;
+    background-color: transparent;
+    font-size: 300%;
+  }
+}
+
+@media print {
+  .resume-container {
+    font-size: small;
+    .computer-skills h3, .computer-skills ul {
+      margin-top: 0in;
+      margin-bottom: 0in;
+    }
+    .school .dates {
+      display: inline-block;
+    }
+
+    .company-smart-consulting--llc- {
+      display: none;
+    }
+  }
+}
+
+

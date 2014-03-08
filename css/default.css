@@ -2,16 +2,7 @@ body {
   margin: 0 auto;
   max-width: 9in;
   background-color: #262724;
-  color: #262724
-}
-
-a {
-    text-decoration: none;
-}
-
-.contact-container a {
-  color: #262724
-}
+  color: #262724; }
 
 .resume-container {
   font-family: serif;
@@ -19,161 +10,96 @@ a {
   line-height: 1.3em;
   max-width: 9in;
   padding: .5in;
-  background-color: #F2F4F2;
-}
+  background-color: #f2f4f2; }
+  .resume-container h1, .resume-container h2, .resume-container h3, .resume-container h4, .resume-container h5 {
+    font-family: sans-serif;
+    color: #716a5b; }
+  .resume-container a {
+    text-decoration: none; }
+  .resume-container .contact-container a {
+    color: #262724; }
+  .resume-container .location {
+    color: #d8d2b9; }
+  .resume-container .computer-skills-container {
+    border-top: 1px #c9d5db solid; }
+  .resume-container .computer-skills {
+    padding-left: .5em; }
+    .resume-container .computer-skills ul.skills {
+      margin-top: .1em;
+      padding-left: .5em; }
+    .resume-container .computer-skills .skills-header {
+      margin-bottom: .5em; }
+    .resume-container .computer-skills .skills > .skill {
+      display: inline-block; }
+      .resume-container .computer-skills .skills > .skill:after {
+        content: ', '; }
+      .resume-container .computer-skills .skills > .skill:last-child:after {
+        content: ''; }
+  .resume-container .contact-container > * > * {
+    display: inline-block; }
+  .resume-container .contact-container h1 {
+    color: #262724; }
+  .resume-container .contact-container .contact .email {
+    margin-left: 3em; }
+  .resume-container .contact-container .contact .website:before, .resume-container .contact-container .contact .website:after {
+    content: ' | '; }
+  .resume-container .contact-container .contact .github {
+    background-image: url(../img/github_mark.png);
+    background-repeat: no-repeat;
+    text-indent: 36px;
+    background-position: 0px 0px; }
+  .resume-container .dates > * {
+    display: inline-block; }
+  .resume-container .dates > .end-date:before {
+    content: " - "; }
+  .resume-container .companies, .resume-container .education {
+    border-top: 1px #c9d5db solid; }
+  .resume-container .company-container .company .name {
+    margin-bottom: 0.3em; }
+  .resume-container .company-container .company .title {
+    display: inline-block; }
+  .resume-container .company-container .company .dates {
+    display: inline-block; }
+  .resume-container .company-container .company .title:after {
+    content: '.'; }
+  .resume-container .company-container .company .location {
+    font-style: italic;
+    font-weight: normal; }
+  .resume-container ul.duties {
+    margin-top: 0.3em; }
+    .resume-container ul.duties .duty {
+      line-height: 1.5em; }
+  .resume-container .school > h2 {
+    margin-bottom: 0.3em; }
+  .resume-container .school .degree, .resume-container .school .gpa {
+    display: inline-block; }
+  .resume-container .school .location {
+    font-weight: normal;
+    font-size: 70%;
+    font-style: italic; }
+  .resume-container .school .degree:after {
+    content: '. '; }
+  .resume-container .school .gpa:before {
+    content: ' Cumulative GPA: '; }
 
-h1,h2,h3,h4,h5 {
-  font-family: sans-serif;
-  color: #716A5B
-}
-
-.computer-skills {
-  padding-left: .5em;
-}
-
-ul.skills {
-  margin-top: .1em;
-  padding-left: .5em;
-}
-
-.skills-header {
-  margin-bottom: .5em;
-}
-
-.contact-container > * > * {
-  display: inline-block;
-}
-
-.contact-container h1 {
-  color: #262724;
-}
-
-.contact .email {
-  margin-left: 3em;
-}
-
-.contact .website:before, .contact .website:after {
-  content: ' | ';
-}
-
-.contact .github {
-  background-image: url(../img/github_mark.png);
-  background-repeat: no-repeat;
-  text-indent: 36px;
-  background-position: 0px 0px;
-}
-
-.contact .github img {
-  display: inline-block;
-  margin-bottom:-8px;
-}
-
-.skills > .skill:after {
-  content: ', ';
-}
-.skills > .skill:last-child:after {
-  content: '';
-}
-.skills > .skill {
-  display: inline-block;
-}
-
-.dates > * {
-  display: inline-block;
-}
-
-.company .title {
-  display: inline-block;
-}
-
-.company .dates {
-  display: inline-block;
-}
-
-.company .title:after {
-  content: '.';
-}
-
-.company .location {
-  font-style: italic;
-  font-weight: normal;
-}
-
-.company-container .name {
-  margin-bottom: 0.3em;
-}
-
-.dates > .end-date:before {
-  content: ' - '
-}
-
-li.duty {
-  line-height: 1.5em;
-}
-
-ul.duties {
-  margin-top: .3em;
-}
-
-.school > h2 {
-  margin-bottom: .3em;
-}
-
-.school .degree, .school .gpa {
-  display: inline-block;
-}
-
-.school .location {
-  font-weight: normal;
-  font-size: 70%;
-  font-style: italic;
-}
-
-.location {
-  color: #D8D2B9;
-}
-
-.school .degree:after {
-  content: '. ';
-} 
-
-.school .gpa:before {
-  content: ' Cumulative GPA: ';
-}
-
-@media only screen 
-  and (min-device-width : 320px) 
-  and (max-device-width : 568px) 
-  and (orientation : portrait) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
   body {
     max-width: 100%;
-    background-color: #F2F4F2;
-  }
+    background-color: #f2f4f2; }
 
   .resume-container {
     line-height: 1.3em;
     width: 100%;
     padding: .25in;
     background-color: transparent;
-    font-size: 300%;
-  }
-}
-
+    font-size: 300%; } }
 @media print {
-  body, .resume-container {
-    font-size: small;
-  }
-  .computer-skills h3, .computer-skills ul {
-    margin-top: 0in;
-    margin-bottom: 0in;
-  }
-  .school .dates {
-    display: inline-block;
-  }
-
-  .company-smart-consulting--llc- {
-    display: none;
-  }
-}
-
-
+  .resume-container {
+    font-size: small; }
+    .resume-container .computer-skills h3, .resume-container .computer-skills ul {
+      margin-top: 0in;
+      margin-bottom: 0in; }
+    .resume-container .school .dates {
+      display: inline-block; }
+    .resume-container .company-smart-consulting--llc- {
+      display: none; } }

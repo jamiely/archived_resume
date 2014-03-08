@@ -6,8 +6,10 @@
     .resume-container
       = yield :contact, contact
       = yield :computer_skills, computer_skills
-      - employment.each do | company |
-        = yield :company, company
-      - education.each do |school|
-        = yield :school, school
+      .companies
+        - employment.each do | company |
+          = yield :company, company
+      .education
+        - education.each do |school|
+          = yield :school, school
 
