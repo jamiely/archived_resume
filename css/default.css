@@ -101,3 +101,22 @@ ul.skills {
   content: ' Cumulative GPA: ';
 }
 
+@media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 568px) 
+  and (orientation : portrait) {
+  body {
+    max-width: 100%;
+    background-color: #F2F4F2;
+  }
+
+  .resume-container {
+    line-height: 1.3em;
+    width: 100%;
+    padding: .25in;
+    background-color: transparent;
+    font-size: 300%;
+  }
+}
+
+
