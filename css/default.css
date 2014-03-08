@@ -116,4 +116,12 @@ body {
     .resume-container .school .dates {
       display: inline-block; }
     .resume-container .company-smart-consulting--llc-, .resume-container .company-amerisourcebergen-corporation {
-      display: none; } }
+      display: none; }
+    .resume-container .company-container .company .name .short-name {
+      display: none; }
+    .resume-container .company-container .company .name .long-name {
+      display: block; }
+    .resume-container .contact-container .contact .github {
+      text-indent: 0px; }
+      .resume-container .contact-container .contact .github:before {
+        content: 'Github: '; } }

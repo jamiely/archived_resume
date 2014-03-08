@@ -218,6 +218,30 @@ body {
     .company-smart-consulting--llc-, .company-amerisourcebergen-corporation {
       display: none;
     }
+
+    .company-container {
+      .company {
+        .name {
+          .short-name {
+            display: none;
+          }
+          .long-name {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .contact-container {
+      .contact {
+        .github {
+          text-indent: 0px;
+          &:before {
+            content: 'Github: ';
+          }
+        }
+      }
+    }
   }
 }
 
