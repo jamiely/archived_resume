@@ -1,11 +1,17 @@
 !!!
 %html
   %head
+    %link{rel: 'stylesheet', href: 'css/default.css'}
   %body
-    %h1 Jamie Ly
-    = yield :computer_skills, computer_skills
-    - employment.each do | company |
-      = yield :company, company
-    - education.each do |school|
-      = yield :school, school
+    .resume-container
+      .contact-container
+        %section.contact
+          %h1 Jamie Ly
+          .twitter @jamiely
+          .email ME AT JAMIE.LY
+      = yield :computer_skills, computer_skills
+      - employment.each do | company |
+        = yield :company, company
+      - education.each do |school|
+        = yield :school, school
 

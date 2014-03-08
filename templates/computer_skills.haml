@@ -1,0 +1,12 @@
+%h2.computer-skills-header Computer Skills
+.computer-skills
+  - items = { 'Languages' => languages, 
+              'Frameworks' => frameworks, 
+              'Software' => software, 
+              'Skills' => other }
+  - items.each_pair do | title, list |
+    %h3.skills-header{class: title}= title
+    %ul.skills{class: title}
+      - list.each do |item|
+        %li.skill= item
+

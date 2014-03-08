@@ -1,4 +1,4 @@
-%div.company
+%div.company-container
   %section.company
     %h2.name
       = company
@@ -11,6 +11,6 @@
       .problem
         No duties available.
     - else
-      %ul
-      - duties.each do | duty |
-        %li.duty= duty
+      %ul.duties
+        - duties.each do | duty |
+          %li.duty= duty
