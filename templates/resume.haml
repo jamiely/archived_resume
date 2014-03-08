@@ -4,11 +4,7 @@
     %link{rel: 'stylesheet', href: 'css/default.css'}
   %body
     .resume-container
-      .contact-container
-        %section.contact
-          %h1 Jamie Ly
-          .twitter @jamiely
-          .email ME AT JAMIE.LY
+      = yield :contact, contact
       = yield :computer_skills, computer_skills
       - employment.each do | company |
         = yield :company, company
