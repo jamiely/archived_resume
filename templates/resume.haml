@@ -50,4 +50,5 @@
                 %a{href: activity['url']}= activity['title']
               - else
                 = activity['title']
+    = yield :ga, {}
 
