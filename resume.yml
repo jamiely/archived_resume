@@ -265,19 +265,27 @@ education:
     gpa: 3.61
 
 interests:
-  - Creative writing both prose and poetry (jamiely.com/wordpress/writings)
-  - Sculpture and other arts and crafts (jamiely.com/wordpress/artscrafts)
-  - Game programming
-  - Open source software
-  - Juggling
+  - title: Creative writing both prose and poetry (jamiely.com/wordpress/writings)
+    url: http://jamie.ly/wordpress/writings/
+  - title: Sculpture and other arts and crafts (jamiely.com/wordpress/artscrafts)
+    url: http://jamie.ly/wordpress/artscrafts/
+  - title: Game programming
+    url: http://jamie.ly/wordpress/tags/game-programming/
+  - title: Open source software
+    url: http://jamie.ly/wordpress/tags/oss/
+  - title: Juggling
+    url: http://jamie.ly/wordpress/tags/juggling
 
 activities:
-  - Wharton Innovation Tournament 2010
-  - Higher-Ed Web Symposium 2010/Higher-Ed Camp 2010
-  - Philly Give Camp 2010
-  - Code for America Philadelphia 2012
-  - Various independent consulting work
-  - Six Sigma Green Belt, PMP Training
+  - title: Wharton Innovation Tournament 2010
+    url: http://jamie.ly/wordpress/programming/software/innovation-tournament/
+  - title: Higher-Ed Web Symposium 2010/Higher-Ed Camp 2010
+  - title: Philly Give Camp 2010
+    url: http://jamie.ly/wordpress/tags/philly-give-camp-2010/
+  - title: Code for America Philadelphia 2012
+    url: http://jamie.ly/wordpress/programming/code-for-america-philly-2012/
+  - title: Various independent consulting work
+  - title: Six Sigma Green Belt, PMP Training
 
 projects:
   - name: Tetris Attack in Cljs

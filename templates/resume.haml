@@ -16,6 +16,10 @@
           = yield :school, school
       .projects-container
         %h2 Selected Personal Projects
+        .other
+          A more complete list of personal projects is available at
+          %a{href: 'http://jamie.ly/wordpress/programs/'} 
+            jamie.ly/wordpress/programs/
         %ul.projects
           - projects.each do |project|
             %li.project
@@ -31,10 +35,19 @@
         %h2 Interests
         %ul.interests
           - interests.each do |interest|
-            %li.interest= interest
+            %li.interest
+              - if interest['url'] ||= nil
+                %a{href: interest['url']}= interest['title']
+              - else
+                = interest['title']
+
       .activities-container
         %h2 Activities
         %ul.activities
           - activities.each do |activity|
-            %li.activity= activity
+            %li.activity
+              - if activity['url'] ||= nil
+                %a{href: activity['url']}= activity['title']
+              - else
+                = activity['title']
 
