@@ -9,6 +9,8 @@ computer_skills:
   languages: 
     - name: Java
       link: http://jamie.ly/wordpress/tags/java
+    - name: Scala
+      link: http://jamie.ly/wordpress/tags/scala
     - name: Ruby
       link: http://jamie.ly/wordpress/tags/ruby
     - name: Bash
@@ -23,7 +25,6 @@ computer_skills:
       link: http://jamie.ly/wordpress/tags/C-lang
     - name: PHP
       link: http://jamie.ly/wordpress/tags/php
-    - name: Scala
     - name: Python
       link: http://jamie.ly/wordpress/tags/python
     - name: SASS/LESS/CSS
@@ -38,10 +39,14 @@ computer_skills:
   frameworks:
     - name: Chef
       link: http://blog.jamie.ly/programming/2014/03/06/deploying-a-java-tomcat-application-via-chef.html
+    - name: AngularJS
+    - name: NodeJS
+    - name: Play Framework (Scala)
     - name: Backbone.js
     - name: JQuery
     - name: Rails
       link: http://jamie.ly/wordpress/tags/rails/
+    - name: Akka
     - name: Facebook
       link: http://jamie.ly/wordpress/tags/facebook-api
     - name: WordPress
@@ -90,6 +95,7 @@ employment:
       - >
         Configured and managed shared logging and monitoring services 
         logstash, Kibana, and Graphite.
+      - Created coordinated systems using Akka.
       - Created build tasks using Maven, rake, and sbt.
   - company: EPAM Empathy Lab
     location: Conshohocken, PA
