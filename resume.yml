@@ -57,6 +57,7 @@ computer_skills:
   software:
     - name: Vim
     - name: Jenkins/Teamcity
+    - name: Git
     - name: Visual Studio
     - name: Adobe Creative Suite
     - name: IIS/Apache/Nginx
