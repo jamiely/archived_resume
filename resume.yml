@@ -6,7 +6,7 @@ contact:
   github: jamiely
 
 computer_skills:
-  languages: 
+  languages:
     - name: Java
       link: http://jamie.ly/wordpress/tags/java
     - name: Scala
@@ -76,17 +76,28 @@ computer_skills:
       link: http://jamie.ly/wordpress/tags/digital-media/
 
 employment:
+  - company: Clutch Holdings
+    company_short: Clutch
+    location: Ambler, PA
+    dates:
+      start: August 2015
+      end: Present
+    title: Infrastructure Engineer
+    duties:
+      - Deployed, monitored, and deployed AWS infrastructure
+      - Developed and maintained applications in Scala using Play Framework
+      - Maintained applications in Java, PHP, Perl, and JavaScript
   - company: McKesson Corporation
     company_short: McKesson
     location: King of Prussia, PA
-    dates: 
+    dates:
       start: August 2013
-      end: Present
+      end: September 2015
     title: Senior Software Developer
     duties:
       - Developed REST APIs using Play Framework and spray-io in Scala
       - Developed REST APIs using JAX-RS in Java
-      - > 
+      - >
         Developed Chef cookbooks for Java application server setup and
         application deployment. Provisioned nodes using Chef solo and 
         Chef Server. Tested cookbooks using test-kitchen.
