@@ -39,10 +39,13 @@ computer_skills:
   frameworks:
     - name: Chef
       link: http://blog.jamie.ly/programming/2014/03/06/deploying-a-java-tomcat-application-via-chef.html
+    - name: Ansible
+    - name: Terraform
     - name: AngularJS
     - name: NodeJS
-    - name: Play Framework (Scala)
+    - name: Play Framework (Scala), ScalaTest
     - name: Backbone.js
+    - name: React-Native
     - name: JQuery
     - name: Rails
       link: http://jamie.ly/wordpress/tags/rails/
@@ -51,20 +54,20 @@ computer_skills:
       link: http://jamie.ly/wordpress/tags/facebook-api
     - name: WordPress
       link: http://jamie.ly/wordpress/tags/wordpress
+    - name: Drupal
+      link: https://github.com/jamiely/drupal-orgchart
     - name: Flex
     - name: ASP.Net
-    - name: JUnit-like testing
+    - name: BDD and JUnit-like testing
   software:
-    - name: Vim
+    - name: Vim/Emacs/Eclipse/IntelliJ/Visual Studio
     - name: Jenkins/Teamcity
-    - name: Git
-    - name: Visual Studio
+    - name: SVN/Git
     - name: Adobe Creative Suite
-    - name: IIS/Apache/Nginx
-    - name: MySQL/SQL Server
-    - name: Emacs
-    - name: Selenium
-    - name: JMeter
+    - name: IIS/Apache/Nginx/HAProxy
+    - name: MySQL/PostgreSQL/Cassandra/MSSQL
+    - name: Capybara/PhantomJS/Selenium
+    - name: JMeter/Gatling
   other:
     - name: Public Speaking
       link: http://jamie.ly/wordpress/tags/public-speaking
@@ -84,9 +87,16 @@ employment:
       end: Present
     title: Infrastructure Engineer
     duties:
-      - Deployed, monitored, and deployed AWS infrastructure
-      - Developed and maintained applications in Scala using Play Framework
-      - Maintained applications in Java, PHP, Perl, and JavaScript
+      - >
+        Deployed, monitored, and deployed public cloud infrastructure both
+        manually and using tools such as ansible and terraform.
+      - >
+        Developed code to query Cassandra and performed simple administration
+        tasks.
+      - Developed and maintained applications in Scala using Play Framework.
+      - Maintained applications in Java, PHP, Perl, and JavaScript.
+      - Developed mobile application using React Native.
+      - Created build tasks using Maven, rake, and sbt.
   - company: McKesson Corporation
     company_short: McKesson
     location: King of Prussia, PA
@@ -95,44 +105,44 @@ employment:
       end: September 2015
     title: Senior Software Developer
     duties:
-      - Developed REST APIs using Play Framework and spray-io in Scala
-      - Developed REST APIs using JAX-RS in Java
+      - Developed REST APIs using Play Framework and spray-io in Scala.
+      - Developed REST APIs using JAX-RS in Java.
       - >
         Developed Chef cookbooks for Java application server setup and
-        application deployment. Provisioned nodes using Chef solo and 
+        application deployment. Provisioned nodes using Chef solo and
         Chef Server. Tested cookbooks using test-kitchen.
       - >
-        Configured Jenkins jobs for building and deploying Java and 
+        Configured Jenkins jobs for building and deploying Java and
         Scala projects.
       - >
-        Configured and managed shared logging and monitoring services 
+        Configured and managed shared logging and monitoring services
         logstash, Kibana, and Graphite.
       - Created coordinated systems using Akka.
       - Created build tasks using Maven, rake, and sbt.
   - company: EPAM Empathy Lab
     location: Conshohocken, PA
-    title: Mobile Developer 
-    dates: 
+    title: Mobile Developer
+    dates:
       start: November 2012
       end: August 2013
     duties:
-      - Worked on new features for an iOS digital streaming video product
-      - Implemented automated builds using TeamCity
-      - Implemented automated testing using Frank and Kiwi
+      - Worked on new features for an iOS digital streaming video product.
+      - Implemented automated builds using TeamCity.
+      - Implemented automated testing using Frank and Kiwi.
       - >
-        Developed build and project tools using Ruby Thor-command 
-        line program framework
+        Developed build and project tools using Ruby Thor-command
+        line program framework.
   - company: BrickSimple, LLC
     location: Doylestown, PA
-    title: Mobile Developer 
-    dates: 
+    title: Mobile Developer
+    dates:
       start: August 2012
       end: November 2012
-    duties: 
-      - Developed Universal iOS applications written using native Objective-C
-      - Developed REST web services using Symfony 2
+    duties:
+      - Developed Universal iOS applications written using native Objective-C.
+      - Developed REST web services using Symfony 2.
       - Implemented offline mapping solution for iOS using OpenStreetMap data.
-      - Implemented Portfolio Management solution using VB.NET
+      - Implemented Portfolio Management solution using VB.NET.
   - company: The Wharton School of the University of Pennsylvania
     company_short: The Wharton School
     location: Philadelphia, PA
@@ -141,36 +151,36 @@ employment:
       start: April 2011
       end: August 2012
     duties: 
-      - Determine strategic direction for software development group
-      - Managed 3 developers directly
+      - Determine strategic direction for software development group.
+      - Managed 3 developers directly.
       - >
         Recruited and hired 2 developers to backfill positions, related
-        performance management
-      - Implement rigorous software development methodologies
-      - Streamline operations and reduce errors
+        performance management.
+      - Implement rigorous software development methodologies.
+      - Streamline operations and reduce errors.
       - >
         Increase data collection through operationalization of task
-        tracking, time tracking, and customer surveys
+        tracking, time tracking, and customer surveys.
       - >
         Work closely with faculty and staff members to spec and design
-        software applications
+        software applications.
       - >
         Develop Intermap application featuring rich AJAX-based UI for
         graph creation and visualization using Backbone.js, ColdFusion,
-        R, and GraphViz
+        R, and GraphViz.
       - >
         Conducted various training including JavaScript and
-        algorithm-based training using Project Euler
-      - Developed complex JMeter load tests and accessory scripts
+        algorithm-based training using Project Euler.
+      - Developed complex JMeter load tests and accessory scripts.
       - Developed JMeter management utilities using Ruby, Thor, and Nokogiri
-      - Developed software prototype using Twitter Bootstrap
+      - Developed software prototype using Twitter Bootstrap.
       - >
         Implemented productivity reports using Rails by merging several
         data sources and creating several Ruby gems to interact with 3rd
         party APIs including Parature, Qualtrics, and Unfuddle.
       - >
         Many of the same duties as listed below, in the Software
-        Developer position
+        Developer position.
   - company: The Wharton School of the University of Pennsylvania
     company_short: The Wharton School
     location: Philadelphia, PA
@@ -178,7 +188,7 @@ employment:
     dates:
       start: November 2009
       end: April 2011
-    duties: 
+    duties:
       - Supported and developed learning simulations primarily using ColdFusion, Flex, and Javascript.
       - Addressed bugs and supported requests for a stock simulation program used by hundreds of students.
       - Reviewed code as part of code review team for applications moving to production environment.
@@ -188,12 +198,12 @@ employment:
   - company: AmerisourceBergen Corporation
     company_short: AmerisourceBergen
     location: Chesterbrook, PA
-    title: Systems Specialist I, Systems Specialist II 
+    title: Systems Specialist I, Systems Specialist II
     dates:
       start: December 2006
       end: November 2009
     duties:
-      - > 
+      - >
         Led four-person development team in technical aspects working
         on over thirty different applications used by over three
         thousand company associates in various business areas.
@@ -222,12 +232,12 @@ employment:
         module creation and theme authoring.
   - company: Smart Consulting, LLC.
     location: Devon, PA
-    title: Business Consultant, Business Consultant Senior 
+    title: Business Consultant, Business Consultant Senior
     dates:
       start: June 2005
       end: December 2006
     duties:
-      - > 
+      - >
         Designed and created relational database structure for three
         large projects.
       - >
@@ -276,7 +286,7 @@ education:
     gpa: '3.70'
   - institution: Drexel University
     location: Philadelphia, PA
-    dates: 
+    dates:
       start: September 2000
       end: June 2005
     degree: BS in Computer Science, Minor in Mathematics
