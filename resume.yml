@@ -16,7 +16,7 @@ computer_skills:
     - name: Bash
     - name: Objective-C
       link: http://jamie.ly/wordpress/tags/objective-c/
-    - name: Javascript
+    - name: JavaScript
       link: http://jamie.ly/wordpress/tags/javascript/
     - name: SQL
       link: http://jamie.ly/wordpress/?s=sql
@@ -36,17 +36,19 @@ computer_skills:
       link: http://jamie.ly/wordpress/?s=clojure
     - name: Haskell
       link: http://jamie.ly/wordpress/tags/haskell/
+    - name: C#/VB.net
+    - name: ActionScript
+    - name: Go/Rust/Perl
   frameworks:
-    - name: Chef
-      link: http://blog.jamie.ly/programming/2014/03/06/deploying-a-java-tomcat-application-via-chef.html
     - name: Ansible
     - name: Terraform
-    - name: AngularJS
-    - name: NodeJS
+    - name: Chef
+      link: http://blog.jamie.ly/programming/2014/03/06/deploying-a-java-tomcat-application-via-chef.html
+    - name: iOS/Android
+    - name: React Native
     - name: Play Framework (Scala), ScalaTest
-    - name: Backbone.js
-    - name: React-Native
-    - name: JQuery
+    - name: NodeJS
+    - name: react/AngularJS/Backbone.js/JQuery
     - name: Rails
       link: http://jamie.ly/wordpress/tags/rails/
     - name: Akka
@@ -59,15 +61,23 @@ computer_skills:
     - name: Flex
     - name: ASP.Net
     - name: BDD and JUnit-like testing
+    - name: NetSuite/Mule/SharePoint
   software:
-    - name: Vim/Emacs/Eclipse/IntelliJ/Visual Studio
+    - name: Vim/Emacs/IntelliJ/Eclipse/Visual Studio
     - name: Jenkins/Teamcity
-    - name: SVN/Git
+    - name: Git/SVN
     - name: Adobe Creative Suite
-    - name: IIS/Apache/Nginx/HAProxy
-    - name: MySQL/PostgreSQL/Cassandra/MSSQL
+    - name: Apache/Nginx/HAProxy/IIS
+    - name: MySQL/PostgreSQL/Cassandra/Solr/MSSQL
     - name: Capybara/PhantomJS/Selenium
     - name: JMeter/Gatling
+    - name: sbt/maven
+    - name: npm/grunt/gulp
+    - name: rake/thor
+  services:
+    - name: Cloudflare
+    - name: PagerDuty
+    - name: AWS/DigitalOcean
   other:
     - name: Public Speaking
       link: http://jamie.ly/wordpress/tags/public-speaking
