@@ -38,7 +38,7 @@ body {
     .resume-container .computer-skills .skills > .skill {
       display: inline-block; }
       .resume-container .computer-skills .skills > .skill:after {
-        content: ', '; }
+        content: '; '; }
       .resume-container .computer-skills .skills > .skill:last-child:after {
         content: ''; }
       .resume-container .computer-skills .skills > .skill .name {

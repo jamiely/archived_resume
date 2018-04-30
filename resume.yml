@@ -14,12 +14,13 @@ computer_skills:
     - name: Ruby
       link: http://jamie.ly/wordpress/tags/ruby
     - name: Bash
+      link: http://jamie.ly/wordpress/tags/bash
     - name: Objective-C
       link: http://jamie.ly/wordpress/tags/objective-c/
     - name: JavaScript
       link: http://jamie.ly/wordpress/tags/javascript/
     - name: SQL
-      link: http://jamie.ly/wordpress/?s=sql
+      link: http://jamie.ly/wordpress/tags/sql
     - name: Regular Expressions
     - name: C/C++
       link: http://jamie.ly/wordpress/tags/C-lang
@@ -27,18 +28,24 @@ computer_skills:
       link: http://jamie.ly/wordpress/tags/php
     - name: Python
       link: http://jamie.ly/wordpress/tags/python
-    - name: SASS/LESS/CSS
+    - name: SASS, LESS, CSS
       link: http://jamie.ly/wordpress/tags/css
-    - name: XML/XPath
-    - name: HAML/HTML
+    - name: XML, XPath
+    - name: HAML, HTML
     - name: R
     - name: Clojure(script)
-      link: http://jamie.ly/wordpress/?s=clojure
+      link: http://antiquity.jamie.ly/tags/clojure/
     - name: Haskell
       link: http://jamie.ly/wordpress/tags/haskell/
-    - name: C#/VB.net
+    - name: C#, VB.net
+      link: http://antiquity.jamie.ly/tags/c#
     - name: ActionScript
-    - name: Go/Rust/Perl
+      link: http://antiquity.jamie.ly/tags/actionscript/
+    - name: Go
+      link: http://blog.jamie.ly/programming/2013/10/02/connect-four-go.html
+    - name: Rust
+      link: http://blog.jamie.ly/software/2016/08/20/connect-four-in-rust.html
+    - name: Perl
   frameworks:
     - name: Ansible
     - name: Terraform
@@ -47,6 +54,7 @@ computer_skills:
     - name: iOS/Android
     - name: React Native
     - name: Play Framework (Scala), ScalaTest
+      link: http://blog.jamie.ly/software/2016/09/25/play-framework.html
     - name: NodeJS
     - name: react/AngularJS/Backbone.js/JQuery
     - name: Rails
@@ -61,23 +69,26 @@ computer_skills:
     - name: Flex
     - name: ASP.Net
     - name: BDD and JUnit-like testing
-    - name: NetSuite/Mule/SharePoint
+    - name: Mule
+    - name: NetSuite, SharePoint
   software:
-    - name: Vim/Emacs/IntelliJ/Eclipse/Visual Studio
-    - name: Jenkins/Teamcity
-    - name: Git/SVN
-    - name: Adobe Creative Suite
-    - name: Apache/Nginx/HAProxy/IIS
-    - name: MySQL/PostgreSQL/Cassandra/Solr/MSSQL
-    - name: Capybara/PhantomJS/Selenium
-    - name: JMeter/Gatling
-    - name: sbt/maven
-    - name: npm/grunt/gulp
-    - name: rake/thor
+    - name: IDEs (Vim, Emacs, IntelliJ, Eclipse, Visual Studio)
+    - name: CI (Jenkins, Teamcity, travis-ci)
+    - name: Version Control (Git, SVN, GitHub, GitLab, BitBucket)
+    - name: Creative (Photoshop, Illustrator, Gimp, InkScape)
+    - name: Web Servers (Apache, Nginx, HAProxy, IIS)
+    - name: DBs (MySQL, PostgreSQL, Cassandra, Solr, Redis, MSSQL)
+    - name: Integration Testing (Capybara, PhantomJS, Selenium)
+    - name: Stress testing (JMeter, Gatling)
+    - name: Build tools (sbt, maven, ant, npm, grunt, gulp, rake)
+    - name: CLI Builders (thor, GNU getopt, Python getopt)
+    - name: CLI Tools (GNU core utils, curl, jq, xargs)
   services:
     - name: Cloudflare
-    - name: PagerDuty
-    - name: AWS/DigitalOcean
+    - name: PagerDuty, Papertrail, Loggly, Datadog
+    - name: >
+            AWS (S3, ECS, Elastic Beanstalk, EC2, RDS, RedShift, Elasticache,
+            Route53, CloudWatch), Azure (Blob Storage), DigitalOcean
   other:
     - name: Public Speaking
       link: http://jamie.ly/wordpress/tags/public-speaking
@@ -107,6 +118,7 @@ employment:
       - Maintained applications in Java, PHP, Perl, and JavaScript.
       - Developed mobile application using React Native.
       - Created build tasks using Maven, rake, and sbt.
+      - Created database replication scripts using Python and Bash
   - company: McKesson Corporation
     company_short: McKesson
     location: King of Prussia, PA
