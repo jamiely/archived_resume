@@ -22,6 +22,7 @@ computer_skills:
     - name: SQL
       link: http://jamie.ly/wordpress/tags/sql
     - name: Regular Expressions
+      link: https://www.youtube.com/watch?v=3Ghuh1ygM9E
     - name: C/C++
       link: http://jamie.ly/wordpress/tags/C-lang
     - name: PHP
@@ -80,6 +81,7 @@ computer_skills:
     - name: DBs (MySQL, PostgreSQL, Cassandra, Solr, Redis, MSSQL)
     - name: Integration Testing (Capybara, PhantomJS, Selenium)
     - name: Stress testing (JMeter, Gatling)
+      link: https://www.youtube.com/watch?v=8xiQ_xa73SM
     - name: Build tools (sbt, maven, ant, npm, grunt, gulp, rake)
     - name: CLI Builders (thor, GNU getopt, Python getopt)
     - name: CLI Tools (GNU core utils, curl, jq, xargs)
@@ -348,6 +350,14 @@ projects:
         url: https://github.com/jamiely/simple-clojure-game
       - type: article
         url: http://jamie.ly/wordpress/programming/software/clojurescript-tetris-attack
+  - name: CiteThis!
+    description: >
+      A Firefox Add-On that assists with creating website citations.
+    links:
+      - type: add-on page
+        link: https://addons.mozilla.org/en-US/firefox/addon/cite-this/
+      - type: source:
+        link: https://github.com/jamiely/citethis
   - name: Simulator
     description: >
       Use to simulate discrete time models/simulations. Written in Ruby and 
