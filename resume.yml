@@ -1,6 +1,6 @@
 contact:
   name: Jamie Ly
-  website: http://blog.jamie.ly
+  website: http://jamie.ly/blog
   twitter: jamiely
   email: jamie.ly@gmail.com
   github: jamiely
@@ -24,7 +24,7 @@ computer_skills:
     - name: Regular Expressions
       link: https://www.youtube.com/watch?v=3Ghuh1ygM9E
     - name: C/C++
-      link: http://jamie.ly/wordpress/tags/C-lang
+      link: http://jamie.ly/wordpress/tags/c-lang
     - name: PHP
       link: http://jamie.ly/wordpress/tags/php
     - name: Python
@@ -356,7 +356,7 @@ projects:
     links:
       - type: add-on page
         link: https://addons.mozilla.org/en-US/firefox/addon/cite-this/
-      - type: source:
+      - type: source
         link: https://github.com/jamiely/citethis
   - name: Simulator
     description: >
